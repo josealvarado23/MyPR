@@ -1,0 +1,12 @@
+com.example.mypr.app-jetified-play-services-basement-17.0.0-0 C:\Users\josea\.gradle\caches\8.10.2\transforms\97af445680ae475f1209f6c636b4e0d8\transformed\jetified-play-services-basement-17.0.0\res
+com.example.mypr.app-core-1.0.0-1 C:\Users\josea\.gradle\caches\8.10.2\transforms\ca80042dfe998bf118a7cd341042fb54\transformed\core-1.0.0\res
+com.example.mypr.app-coordinatorlayout-1.0.0-2 C:\Users\josea\.gradle\caches\8.10.2\transforms\d852b8a26cc7d7a42a369a83657979c4\transformed\coordinatorlayout-1.0.0\res
+com.example.mypr.app-google-services-3 C:\Users\josea\MyPR\mypr\android\app\build\generated\res\google-services\release
+com.example.mypr.app-pngs-4 C:\Users\josea\MyPR\mypr\android\app\build\generated\res\pngs\release
+com.example.mypr.app-resValues-5 C:\Users\josea\MyPR\mypr\android\app\build\generated\res\resValues\release
+com.example.mypr.app-packageReleaseResources-6 C:\Users\josea\MyPR\mypr\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.example.mypr.app-packageReleaseResources-7 C:\Users\josea\MyPR\mypr\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.example.mypr.app-merged-not-compiled-resources-8 C:\Users\josea\MyPR\mypr\android\app\build\intermediates\merged-not-compiled-resources\release
+com.example.mypr.app-release-9 C:\Users\josea\MyPR\mypr\android\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.example.mypr.app-main-10 C:\Users\josea\MyPR\mypr\android\app\src\main\res
+com.example.mypr.app-release-11 C:\Users\josea\MyPR\mypr\android\app\src\release\res

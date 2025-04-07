@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.mypr.app-mergeReleaseResources-6:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\josea\\.gradle\\caches\\8.10.2\\transforms\\ca80042dfe998bf118a7cd341042fb54\\transformed\\core-1.0.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

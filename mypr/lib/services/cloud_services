@@ -1,0 +1,49 @@
+import requests
+import 'dart:convert';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
+class CloudService:
+    def __init__(self, api_url, api_key):
+        self.api_url = api_url
+        self.api_key = api_key
+
+    def store_workout_data(self, workout_data):
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': f'Bearer {self.api_key}'
+        }
+        response = requests.post(self.api_url, json=workout_data, headers=headers)
+        if response.status_code == 200:
+            print("Workout data stored successfully.")
+        else:
+            print(f"Failed to store workout data: {response.status_code} - {response.text}")
+
+# Example usage
+if __name__ == "__main__":
+    api_url = "https://example.com/api/workouts"
+    api_key = "your_api_key_here"
+    cloud_service = CloudService(api_url, api_key)
+
+    workout_data = {
+        "user_id": "12345",
+        "workout_type": "Running",
+        "duration": 30,  # in minutes
+        "calories_burned": 300
+    }
+
+    cloud_service.store_workout_data(workout_data)
+
+void main() async {
+  var url = Uri.parse('https://jsonplaceholder.typicode.com/posts/1');
+  var response = await http.get(url);
+
+  if (response.statusCode == 200) {
+    print('Response data: ${response.body}');
+  } else {
+    print('Request failed with status: ${response.statusCode}');
+  }
+}
+```
+dependencies:
+  http: ^0.13.3
